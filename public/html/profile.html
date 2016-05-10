@@ -1,0 +1,13 @@
+<div class="container">
+    <h1>Send Message!</h1>
+
+    <!-- <pre>{{currentUser | json}}</pre> -->
+
+    <form ng-submit='sendMessage(newText, currentUser.username)'>
+        <div class="form-group">
+            <label for="comment">Message:</label>
+            <textarea class="form-control" rows="5" id="comment" ng-model='newText'></textarea>
+        </div>
+        <button class='btn btn-lg btn-primary'>Send</button>
+    </form>
+</div>

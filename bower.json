@@ -1,0 +1,24 @@
+{
+  "name": "intro-to-auth",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Cade Nichols <cade@cadenichols.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/CodingHouseFI/intro-to-auth",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
+    "satellizer": "^0.14.0"
+  }
+}
